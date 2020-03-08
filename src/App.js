@@ -1,8 +1,19 @@
 import React from 'react';
+import HttpPost from './components/HttpPost';
+// import HttpPostList from './components/HttpPostList';
+// import ComponentA1 from './components/context/ComponentA1';
+// import { UserProvider } from './components/context/UserContext';
+// import ClickCounter from './components/ClickCounter';
+// import Refs from './components/Refs';
+// import FormHandling from './components/FormHandling';
+// import PersonListWithMap from './components/person/PersonListWithMap';
+// import ListDataWithMap from './components/person/PersonListWithMap';
+// import ConditionallyRendering from './components/ConditionallyRendering';
+// import Parent from './components/Parent';
 // import Hello from './components/Hello'
 // import Message from './components/Message'
 // import Counter from './components/Counter';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -12,10 +23,21 @@ function App() {
     </Hello> */}
     {/* <Message></Message> */}
     {/* <Counter/> */}
-    <EventBind/>
+    {/* <EventBind/> */}
+    {/* <Parent/> */}
+    {/* <ConditionallyRendering/> */}
+    {/* <ListDataWithMap/> */}
+    {/* <PersonListWithMap/> */}
+    {/* <FormHandling/> */}
+    {/* <Refs/> */}
+    {/* <ClickCounter/> */}
+    {/* <UserProvider value="Kumar">
+      <ComponentA1/>      
+    </UserProvider> */}
+    {/* <HttpPostList/> */}
+    <HttpPost/>
   </div>
   );
 }
-// counter
-// increment by 5 based on prevState
+
 export default App;
