@@ -1,5 +1,7 @@
 import React from 'react';
-import HttpPost from './components/HttpPost';
+import DataFetching from './components/fetchDataHooks/DataFetching';
+// import HookCounter from './components/HookCounter';
+// import HttpPost from './components/HttpPost';
 // import HttpPostList from './components/HttpPostList';
 // import ComponentA1 from './components/context/ComponentA1';
 // import { UserProvider } from './components/context/UserContext';
@@ -35,7 +37,9 @@ function App() {
       <ComponentA1/>      
     </UserProvider> */}
     {/* <HttpPostList/> */}
-    <HttpPost/>
+    {/* <HttpPost/> */}
+    {/* <HookCounter/> */}
+    <DataFetching/>
   </div>
   );
 }
